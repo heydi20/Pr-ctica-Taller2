@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+  }
+  
+  .contenedor {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 50vh;
+    background-color: #DFC57B;
+
+  }
+  
+  .header {
+    background-color: #344039;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .navbar {
+    background-color: #343a40;
+    padding: 0.5rem 1rem;
+    z-index: 1000;
+  }
+  
+  .navbar .navbar-brand {
+    color: darkgoldenrod;
+    margin: 0 1rem;
+    text-transform: uppercase;
+  }
+  
+  .carousel {
+    margin-top: 2rem;
+  }
+  
+  .bienvenidos {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .gallery-item {
+    position: relative;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .video {
+    text-align: center;
+  }
+  
+  .video video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .contacto {
+
+    color: #ffd700; 
+    background-color: #DFC57B;/* Fondo dorado hexadecimal */
+    padding: 20px;
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .contacto h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .contacto .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .contacto .form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #414244;
+    border-radius: 0.25rem;
+  }
+  
+  .contacto .btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .contacto .btn:hover {
+    background-color: #495057;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .mis-iconos a {
+    color: darkgoldenrod;
+    margin: 0 5px;
+  }
+  

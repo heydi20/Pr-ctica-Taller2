@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #bbd9f7;
+}
+
+.carousel .carousel-item {
+    height: 400px;
+}
+
+.carousel .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.mis-iconos a {
+    margin: 0 10px;
+    color: darkgoldenrod;
+    font-size: 24px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-container img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.grid-container img:hover {
+    transform: scale(1.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer iframe {
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: darkgoldenrod;
+    border: none;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+
+.video {
+    text-align: center;
+  }
+  
+  .video video {
+    width: 100%;
+    height: auto;
+  }
