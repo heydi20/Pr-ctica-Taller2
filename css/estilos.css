@@ -127,4 +127,33 @@ body {
     color: darkgoldenrod;
     margin: 0 5px;
   }
+
+        .btn-outline-primary {
+            background-color: #FFD700;
+        }
+
+        .btn-outline-primary:hover {
+            background-color: #808080;
+            color: #ffffff;
+        }
+
+        .table thead th {
+            background-color: #f8f9fa;
+            color: #343a40;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .table tbody tr:nth-child(odd) {
+            background-color: #f8f9fa;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #e9ecef;
+        }
+
+        .table tfoot th, .table tfoot td {
+            background-color: #343a40;
+            color: #ffffff;
+        }
+  
   
