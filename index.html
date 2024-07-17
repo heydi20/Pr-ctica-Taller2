@@ -107,7 +107,7 @@
     
       <section class="contacto">
         <h2 style="color: black;">Contáctanos</h2>
-        <form action="mailto:info@perlisstore.com" method="post" enctype="text/plain">
+        <form action="mailto:info@perlisstore.com" method="post" enctype="text/plain" onsubmit="return validarFormulario()">
           <div class="form-group">
             <label for="nombre" style="color: black;">Nombre:</label>
             <input type="text" id="nombre" name="nombre" class="form-control" required>
@@ -129,6 +129,8 @@
       <p>&copy; 2024 Perlis Store. Todos los derechos reservados.</p>
     </footer>
   </div>
+  <script src="js/index.js"></script>
+  <script src="js/formulario.js"></script>
 </body>
 </html>
 

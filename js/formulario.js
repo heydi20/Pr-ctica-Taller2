@@ -1,8 +1,7 @@
 const validarFormulario=()=>{
     let nombre=document.querySelector('#nombre').value;
     let email=document.querySelector('#email').value;
-    let password=document.querySelector('#password').value;
-    let confirmarPassword=document.querySelector('#confirmar-password').value;
+    let mensaje=document.querySelector('#mensaje').value;
 
     let errores=[];
 
@@ -13,15 +12,8 @@ const validarFormulario=()=>{
     if(!validarEmail(email)){
         errores.push("El email no es válido")
     }
-
-    if(password.length<6){
-        errores.push("La longitud de la contraseña no es válida")
-    }
-    if(!validarPassword(password)){
-        errores.push("La contraseña debe tener al menos una letra minúscula, una letra mayúscula y un número")
-    }
-    if(password!==confirmarPassword){
-        errores.push("Contraseñas no coinciden")
+    if(mensaje ===""){
+        errores.push("El mensaje es obligatorio");
     }
 
     if(errores.length>0){
@@ -38,10 +30,7 @@ const validarEmail=(email)=>{
     return regexEmail.test(email);
 }
 
-const validarPassword=(password)=>{
-    let regexPassword=/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,}$/;
-    return regexPassword.test(password);
-}
+
 
 const mostrarErrores=(errores)=>{
     let mensaje ="";
