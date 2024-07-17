@@ -1,5 +1,22 @@
 {
-    "productos":{
-        
+  "productos": [
+    {
+      "id": "13",
+      "producto": "HUGO BOSS THE SCENT",
+      "precio": 200,
+      "cantidad": 2
+    },
+    {
+      "id": "1",
+      "producto": "PACO RABANNE OLYMPEA",
+      "precio": 100,
+      "cantidad": 1
+    },
+    {
+      "id": "15",
+      "producto": "RALPH LAUREN POLO BLUE",
+      "precio": 150,
+      "cantidad": 1
     }
+  ]
 }
