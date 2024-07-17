@@ -83,6 +83,8 @@
                     <a class="navbar-brand btn " href="index.html" >INICIO</a>
                     <a class="navbar-brand btn " href="mujer.html" >MUJER</a>
                     <a class="navbar-brand btn " href="hombre.html" >HOMBRE</a>
+                    <a class="navbar-brand btn " href="compra.html" >COMPRAR</a>
+
                 </div>
             </nav>
             <h2 style="color: black; text-align: center;">Desprende la personalidad que llevas dentro </h2>
@@ -155,10 +157,10 @@
       </section>
         <section class="contacto">
             <h2 style="color: black;">Suscríbete</h2>
-            <form action="mailto:info@perlisstore.com" method="post" enctype="text/plain">
+            <form action="mailto:info@perlisstore.com" method="post" enctype="text/plain" onsubmit="return validarFormulario1()">
               <div class="form-group">
                 <label style="color: black;" for="nombre">Déjanos tu email y recibe promociones y descuentos todos los meses:</label>
-                <input type="text" id="nombre" name="nombre" class="form-control" required>
+                <input type="email" id="emailm" name="email" class="form-control" required>
               </div>
               <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
@@ -342,6 +344,7 @@
         </div>
     </div>
     <script src="js/eventos.js"></script>
+    <script src="js/mujer.js"></script>
 </body>
 </html>
 
