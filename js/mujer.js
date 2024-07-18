@@ -10,7 +10,7 @@ const validarFormulario1=()=>{
         mostrarErroresm(erroresm);
         //return false;
     }
-    return true;
+    return true; 
     
 }
 let erroresm=[];

@@ -9,7 +9,7 @@ const agregarProducto = (id, producto, precio) => {
     } else { 
         let nuevoProducto = { 
             id: id, 
-            producto: producto, 
+            producto: producto,  
             precio: precio, 
             cantidad: 1, 
         }; 

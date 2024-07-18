@@ -2,7 +2,7 @@ const validarFormulario=()=>{
     let nombre=document.querySelector('#nombre').value;
     let email=document.querySelector('#email').value;
     let mensaje=document.querySelector('#mensaje').value;
-
+ 
     let errores=[];
 
     if(nombre ===""){
