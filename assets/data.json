@@ -7,21 +7,9 @@
       "cantidad": 1
     },
     {
-      "id": "14",
-      "producto": "MONT BLANC STARWALKER",
-      "precio": 175,
-      "cantidad": 1
-    },
-    {
-      "id": "2",
-      "producto": "BURBERRY WOMEN",
-      "precio": 250,
-      "cantidad": 2
-    },
-    {
-      "id": "4",
-      "producto": "BVLGARI SPLENDIDA",
-      "precio": 250,
+      "id": "5",
+      "producto": "CALVIN KLEIN FLAME",
+      "precio": 150,
       "cantidad": 1
     }
   ]
