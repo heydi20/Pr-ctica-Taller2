@@ -1,12 +1,6 @@
 {
   "productos": [
     {
-      "id": "13",
-      "producto": "HUGO BOSS THE SCENT",
-      "precio": 200,
-      "cantidad": 2
-    },
-    {
       "id": "15",
       "producto": "RALPH LAUREN POLO BLUE",
       "precio": 150,
@@ -21,6 +15,12 @@
     {
       "id": "2",
       "producto": "BURBERRY WOMEN",
+      "precio": 250,
+      "cantidad": 2
+    },
+    {
+      "id": "4",
+      "producto": "BVLGARI SPLENDIDA",
       "precio": 250,
       "cantidad": 1
     }
