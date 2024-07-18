@@ -11,6 +11,18 @@
       "producto": "RALPH LAUREN POLO BLUE",
       "precio": 150,
       "cantidad": 1
+    },
+    {
+      "id": "14",
+      "producto": "MONT BLANC STARWALKER",
+      "precio": 175,
+      "cantidad": 1
+    },
+    {
+      "id": "2",
+      "producto": "BURBERRY WOMEN",
+      "precio": 250,
+      "cantidad": 1
     }
   ]
 }
